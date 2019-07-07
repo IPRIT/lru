@@ -54,6 +54,7 @@ class LRU {
   add (key, value) {
     const existingItem = this._hashTable[ key ];
     const isNew = !existingItem;
+
     if (isNew) {
       if (this._hashTableSize + 1 > this._maxSize) {
         this._removeLast();
@@ -62,8 +63,11 @@ class LRU {
       }
       this._hashTable[ key ] = this._wrapValue( key, value );
     } else {
+      // update existing cache item with new value
       this._updateValue( key, value );
     }
+
+    // move current node to the top
     this._moveToHead( this._hashTable[ key ], isNew );
   }
 
