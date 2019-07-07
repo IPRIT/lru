@@ -1,1 +1,1 @@
-Basic JavaScript LRU-cache implementation
+Simple JavaScript O(1) LRU cache implementation

@@ -1,7 +1,7 @@
 {
-  "name": "@ipritoflex/lru",
+  "name": "lru-simple",
   "version": "1.0.0",
-  "description": "",
+  "description": "A fastest JavaScript O(1) LRU cache",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
