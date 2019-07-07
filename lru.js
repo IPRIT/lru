@@ -1,4 +1,8 @@
 class LRU {
+
+  /**
+   * @param {number} size
+   */
   constructor (size = 10) {
     /**
      * @type {number}
