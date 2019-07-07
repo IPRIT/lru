@@ -1,7 +1,7 @@
 {
   "name": "lru-simple",
-  "version": "1.0.4",
-  "description": "A fastest JavaScript O(1) LRU cache",
+  "version": "1.0.5",
+  "description": "A fastest zero-dependency JavaScript O(1) LRU cache",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

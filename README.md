@@ -1,4 +1,4 @@
-# Simple JavaScript O(1) LRU cache implementation
+# A simple zero-dependency JavaScript O(1) LRU cache
 
 ```js
 const LRU = require( 'lru-simple' );
