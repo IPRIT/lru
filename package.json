@@ -1,10 +1,14 @@
 {
   "name": "lru-simple",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fastest JavaScript O(1) LRU cache",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IPRIT/lru"
   },
   "author": "Alexander Belov",
   "license": "MIT"
